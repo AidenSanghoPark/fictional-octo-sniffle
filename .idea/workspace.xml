@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff8865d3-b85f-4079-9cf0-0bcfcb9034af" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/hhplus/tdd/point/PointValidate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/hhplus/tdd/point/UserValidate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/hhplus/tdd/ApiControllerAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/hhplus/tdd/ApiControllerAdvice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/hhplus/tdd/point/PointService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/hhplus/tdd/point/PointService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/hhplus/tdd/point/PointValidate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/hhplus/tdd/point/PointValidate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/hhplus/tdd/point/UserValidate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/hhplus/tdd/point/UserValidate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/hhplus/tdd/point/PointServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/hhplus/tdd/point/PointServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +41,7 @@
         <option value="Enum" />
         <option value="Record" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -64,26 +66,39 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.Build hhplus-tdd-jvm.executor": "Run",
+    "JUnit.PointServiceTest.executor": "Run",
+    "JUnit.PointServiceTest.testChargeUserPoint.executor": "Debug",
+    "JUnit.PointServiceTest.testChargeUserPointFail.executor": "Run",
+    "JUnit.PointServiceTest.testChargeUserPointSuccess.executor": "Run",
+    "JUnit.PointServiceTest.testChargeUserPointWithInvalidAmount.executor": "Debug",
+    "JUnit.PointServiceTest.testConcurrentPointCharge.executor": "Debug",
+    "JUnit.PointServiceTest.testGetPointHistories.executor": "Debug",
+    "JUnit.PointServiceTest.testGetUserPoint (1).executor": "Debug",
+    "JUnit.PointServiceTest.testGetUserPoint.executor": "Run",
+    "JUnit.PointServiceTest.testUseUserPointWithInsufficientBalance.executor": "Debug",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.TddApplication.executor": "Run",
     "aspect.path.notification.shown": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "sangho",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/core/workspace/me/assignments/hhplus-tdd-jvm/src/main/java",
+    "last_opened_file_path": "C:/Users/passo/Desktop/Java/1주차/hhplus-tdd-jvm-java/hhplus-tdd-java/src/test",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -91,11 +106,100 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Java\Week1\hhplus-tdd-jvm-java\hhplus-tdd-java" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="io.hhplus.tdd.point" />
     </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="io.hhplus.tdd.point" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.PointServiceTest.testConcurrentPointCharge">
+    <configuration name="PointServiceTest.testChargeUserPoint" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="io.hhplus.tdd.hhplus-tdd-jvm.test~1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.hhplus.tdd.point.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.hhplus.tdd.point" />
+      <option name="MAIN_CLASS_NAME" value="io.hhplus.tdd.point.PointServiceTest" />
+      <option name="METHOD_NAME" value="testChargeUserPoint" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PointServiceTest.testChargeUserPointWithInvalidAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="io.hhplus.tdd.hhplus-tdd-jvm.test~1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.hhplus.tdd.point.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.hhplus.tdd.point" />
+      <option name="MAIN_CLASS_NAME" value="io.hhplus.tdd.point.PointServiceTest" />
+      <option name="METHOD_NAME" value="testChargeUserPointWithInvalidAmount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PointServiceTest.testConcurrentPointCharge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="io.hhplus.tdd.hhplus-tdd-jvm.test~1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.hhplus.tdd.point.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.hhplus.tdd.point" />
+      <option name="MAIN_CLASS_NAME" value="io.hhplus.tdd.point.PointServiceTest" />
+      <option name="METHOD_NAME" value="testConcurrentPointCharge" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PointServiceTest.testGetPointHistories" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="io.hhplus.tdd.hhplus-tdd-jvm.test~1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.hhplus.tdd.point.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.hhplus.tdd.point" />
+      <option name="MAIN_CLASS_NAME" value="io.hhplus.tdd.point.PointServiceTest" />
+      <option name="METHOD_NAME" value="testGetPointHistories" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PointServiceTest.testUseUserPointWithInsufficientBalance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="io.hhplus.tdd.hhplus-tdd-jvm.test~1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.hhplus.tdd.point.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.hhplus.tdd.point" />
+      <option name="MAIN_CLASS_NAME" value="io.hhplus.tdd.point.PointServiceTest" />
+      <option name="METHOD_NAME" value="testUseUserPointWithInsufficientBalance" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TddApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="hhplus-tdd-jvm.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="io.hhplus.tdd.TddApplication" />
@@ -103,6 +207,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PointServiceTest.testConcurrentPointCharge" />
+        <item itemvalue="JUnit.PointServiceTest.testChargeUserPoint" />
+        <item itemvalue="JUnit.PointServiceTest.testChargeUserPointWithInvalidAmount" />
+        <item itemvalue="JUnit.PointServiceTest.testUseUserPointWithInsufficientBalance" />
+        <item itemvalue="JUnit.PointServiceTest.testGetPointHistories" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">

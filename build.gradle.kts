@@ -28,6 +28,9 @@ dependencies {
     annotationProcessor(libs.lombok)
     annotationProcessor(libs.spring.boot.configuration.processor)
     testImplementation(libs.spring.boot.starter.test)
+    testImplementation("org.mockito:mockito-core:5.7.0") // 동일한 버전 사용
+    testImplementation("org.mockito:mockito-junit-jupiter:5.7.0")
+    testImplementation("org.junit.jupiter:junit-jupiter:5.10.1")
 }
 
 // about source and compilation
@@ -50,4 +53,15 @@ tasks.getByName("jar") {
 tasks.test {
     ignoreFailures = true
     useJUnitPlatform()
+}
+
+tasks.withType<Test> {
+    useJUnitPlatform()
+}
+
+tasks.withType<Test> {
+    testLogging {
+        events("passed", "failed", "skipped")
+        showStandardStreams = true
+    }
 }
